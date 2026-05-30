@@ -41,6 +41,9 @@ void add_url(const std::string& url){
 
 
 int main(){
+    // Simple config
+    std::string hosting_url = "https://ghgltggamer.netlify.app"; // Replace with your own if you are reading this. (IMPORTANT FOR SITEMAP GENERATIONS)
+
 
     // Projects
     std::vector <Project> dataset = {
@@ -217,12 +220,14 @@ int main(){
         std::string path = "project/" + p.name;
         std::filesystem::create_directory(path);
         file(path + "/index.html" , project_page(p));
+        add_url(hosting_url + "/" + url_encoder(path) + "/");
     }
 
     for (const Article& a : dataset_articles){
         std::string path = "articles/" + a.title;
         std::filesystem::create_directory(path);
         file(path + "/index.html" , article_page(a));
+        add_url(hosting_url + "/" + url_encoder(path) + "/");
     }
 
 
@@ -271,8 +276,27 @@ int main(){
             )
         ));
 
+        add_url(hosting_url + "/");
+        add_url(hosting_url + "/project");
+        add_url(hosting_url + "/articles");
+        add_url(hosting_url + "/donate");
+        add_url(hosting_url + "/contact");
 
 
+
+        std::cout << "Building sitemap.xml\n";
+        std::ofstream sitemap_xml("sitemap.xml");
+        sitemap_xml<<sitemap<<"</urlset>";
+
+
+
+        std::cout << "Building robots.txt\n";
+        std::ofstream robots_txt("robots.txt");
+        robots_txt<<R"(User-agent: *
+Allow: /
+
+Sitemap: https://ghgltggamer.netlify.app/sitemap.xml)";
+        std::cout << "Finished!\n";
         
-
+        return 0;
 }

@@ -65,3 +65,14 @@ std::vector<std::string> getFilesInDirectory(const std::string& path) {
 
     return files;
 }
+
+
+std::string url_encoder(const std::string& url){
+    std::string output;
+    for (char c : url){
+        if (c == ' ') {output += "%20";continue;}
+        if (c == '!') {output += "%21";continue;}
+        output += c;
+    }
+    return output;
+}
