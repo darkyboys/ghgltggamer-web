@@ -1,1 +1,1 @@
-rm -rf donate project contact index.html articles
+rm -rf donate project contact index.html articles robots.txt sitemap.xml
