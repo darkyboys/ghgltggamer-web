@@ -178,7 +178,7 @@ std::string page(
 
 <!-- STYLES -->
 <link rel="stylesheet" href="/style.css">
-
+<link rel="icon" href="/img/icon.png">
 )" + schema + R"(
 
 </head>
@@ -538,6 +538,7 @@ inline std::string donate_page(){
 
 <title>Donate</title>
 <link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/img/icon.png">
 </head>
 
 <body>
@@ -584,6 +585,7 @@ inline std::string contact_page(){
 
 <title>Contact</title>
 <link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/img/icon.png">
 </head>
 
 <body>
@@ -693,6 +695,7 @@ inline std::string project_search_page(const std::vector<Project>& projects){
 <title>Projects</title>
 
 <link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/img/icon.png">
 </head>
 
 <body>
@@ -860,6 +863,7 @@ inline std::string article_search_page(const std::vector<Article>& articles){
 <title>Articles</title>
 
 <link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/img/icon.png">
 </head>
 
 <body>

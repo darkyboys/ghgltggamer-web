@@ -8,7 +8,7 @@ Tweak the source in these files:
 
 Once done clone the repo.
 ```bash
-https://github.com/darkyboys/ghgltggamer-src/
+git clone https://github.com/darkyboys/ghgltggamer-src/
 cd ghgltggamer-src
 ```
 
