@@ -1,0 +1,145 @@
+<h2>Introduction</h2>
+
+<p>
+<strong>Demon’s Nation of Realism</strong> is a free and open-source Minecraft resource pack created by <strong>darkyboys</strong>.
+It is designed to transform Minecraft into a photorealistic visual experience using ultra-high-resolution textures and advanced rendering techniques.
+</p>
+
+<div class="box">
+<strong>Target Platforms:</strong>
+<ul>
+    <li>Minecraft Java Edition (primary)</li>
+    <li>Bedrock / Pocket Edition (beta support)</li>
+</ul>
+</div>
+
+<h2>Core Technologies</h2>
+
+<p>
+The pack relies on modern rendering enhancements to achieve its realistic visual style.
+</p>
+
+<ul>
+    <li><strong>POM (Parallax Occlusion Mapping)</strong> — creates depth illusion for surfaces, making blocks appear 3D</li>
+    <li><strong>PBR (Physically Based Rendering)</strong> — simulates realistic material response to lighting</li>
+</ul>
+
+<div class="box">
+POM and PBR are provided as modular systems and are not intended to be used simultaneously in the same configuration.
+</div>
+
+<h2>Texture Resolution</h2>
+
+<p>
+The resource pack offers multiple resolution tiers to accommodate different hardware capabilities.
+</p>
+
+<ul>
+    <li>256× — optimized for performance and lower-end systems</li>
+    <li>512× — balanced high-quality visual experience</li>
+    <li>1024× — ultra-detailed cinematic quality (recommended high-end GPUs)</li>
+</ul>
+
+<p>
+Higher resolutions significantly increase surface detail, allowing for realistic material patterns, fine noise textures, and enhanced environmental realism.
+</p>
+
+<h2>Main Features</h2>
+
+<ul>
+    <li>Ultra-high-resolution textures up to 1024×</li>
+    <li>Photorealistic material redesign for blocks, items, and environment</li>
+    <li>Support for advanced shader pipelines</li>
+    <li>Modular POM and PBR extension packs</li>
+    <li>Optimized builds for different performance levels</li>
+</ul>
+
+<h2>Shader Compatibility</h2>
+
+<p>
+The pack is designed to work with modern Minecraft shader systems to achieve full visual fidelity.
+</p>
+
+<ul>
+    <li>SEUS PTGI</li>
+    <li>BSL Shaders</li>
+    <li>Continuum Shaders</li>
+    <li>Nostalgia Shader (recommended with POM support)</li>
+</ul>
+
+<p>
+When combined with shaders, the pack enables realistic lighting, reflections, and atmospheric depth.
+Without shaders, it still enhances texture detail but lacks full photorealistic rendering.
+</p>
+
+<h2>Performance Requirements</h2>
+
+<div class="box">
+<strong>Recommended System:</strong>
+<ul>
+    <li>At least 8 GB RAM</li>
+    <li>Dedicated GPU (recommended for 512× and 1024×)</li>
+    <li>OptiFine or Iris + Sodium for optimal performance</li>
+</ul>
+</div>
+
+<p>
+Performance depends heavily on resolution, shader usage, and render distance settings.
+</p>
+
+<h2>Installation Guide (Java Edition)</h2>
+
+<ol>
+    <li>Download the desired resolution pack (256× / 512× / 1024×).</li>
+    <li>Place the <code>.zip</code> file into your Minecraft <code>resourcepacks</code> folder:</li>
+</ol>
+
+<code>~/.minecraft/resourcepacks/</code>
+
+<ol start="3">
+    <li>Launch Minecraft and open <strong>Options → Resource Packs</strong>.</li>
+    <li>Activate <strong>Demon’s Nation of Realism</strong>.</li>
+    <li>For advanced visuals, install a compatible shader pack and enable either POM or PBR extension (one at a time).</li>
+</ol>
+
+<h2>Bedrock / PE Version</h2>
+
+<p>
+The Bedrock Edition beta version is distributed as a <code>.mcpack</code> file.
+</p>
+
+<ul>
+    <li>Supports Minecraft versions 1.17 to 1.20.80 (beta range)</li>
+    <li>Does not support full POM or PBR systems due to engine limitations</li>
+</ul>
+
+<h2>Compatibility</h2>
+
+<ul>
+    <li>Java Edition: 1.19 – 1.21+</li>
+    <li>Shader support required for full realism features</li>
+    <li>Best used with modern performance mods (OptiFine / Iris + Sodium)</li>
+</ul>
+
+<h2>Credits</h2>
+
+<ul>
+    <li><strong>Creator:</strong> darkyboys</li>
+    <li><strong>License:</strong> MIT (free use, modification, redistribution with attribution)</li>
+    <li><strong>Contributors:</strong> Community collaborators listed on distribution pages</li>
+</ul>
+
+<h2>Download Sources</h2>
+
+<ul>
+    <li>CurseForge: Demon’s Nation of Realism (1024× POM & PBR Edition)</li>
+    <li>GitHub Repository: https://github.com/darkyboys/demon-nation-of-512x</li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>
+Demon’s Nation of Realism is a modular, high-end Minecraft resource pack focused on photorealistic rendering.
+Through the combination of high-resolution textures, PBR materials, and optional POM depth systems,
+it transforms Minecraft into a cinematic visual experience while remaining configurable for different hardware levels.
+</p>

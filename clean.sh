@@ -1,0 +1,1 @@
+rm -rf donate project contact index.html articles

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Advanced Theme Tester</title>
+
+<style>
+:root {
+  --bg-color: #0f1f17;
+  --card-color: #1a2e22;
+  --primary-color: #84cc16;   /* lime green */
+  --secondary-color: #14b8a6; /* teal */
+  --text-color: #e7f5ec;
+  --muted-text: #a3b3a8;
+  --border-color: rgba(255,255,255,0.07);
+}
+/* 🌍 BASE */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* 📦 LAYOUT */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* 🧩 CARD */
+.card {
+  background: var(--card-color);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  transition: 0.25s ease;
+}
+
+/* ✨ CARD HOVER */
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* 🔘 BUTTONS */
+button {
+  background: var(--primary-color);
+  border: none;
+  padding: 10px 14px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  margin-right: 10px;
+}
+
+/* 🔥 BUTTON HOVER */
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 122, 24, 0.4);
+}
+
+button.secondary {
+  background: var(--secondary-color);
+}
+
+button.secondary:hover {
+  box-shadow: 0 0 15px rgba(20, 184, 166, 0.4);
+}
+
+/* 🧾 INPUTS */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background: rgba(0,0,0,0.2);
+  color: var(--text-color);
+  outline: none;
+  transition: 0.2s ease;
+}
+
+/* ✨ INPUT FOCUS */
+input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 10px rgba(255, 122, 24, 0.3);
+}
+
+/* 🧩 GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+/* 🧪 SECTION */
+.section {
+  margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>🎨 Advanced CSS Theme Tester</h1>
+  <p>Hover, click, and test your theme like a real UI system ✨</p>
+
+  <!-- BUTTONS -->
+  <div class="card section">
+    <h2>🔘 Buttons</h2>
+    <button>Primary Action</button>
+    <button class="secondary">Secondary</button>
+  </div>
+
+  <!-- INPUTS -->
+  <div class="card section">
+    <h2>🧾 Inputs</h2>
+    <label>Name</label>
+    <input type="text" placeholder="Enter your name"/>
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email"/>
+
+    <label>Search</label>
+    <input type="text" placeholder="Search something..."/>
+  </div>
+
+  <!-- WIDGET CARDS -->
+  <div class="grid section">
+
+    <div class="card">
+      <h2>📊 Stats Widget</h2>
+      <p>Users: 1,245</p>
+      <p>Growth: +12%</p>
+    </div>
+
+    <div class="card">
+      <h2>🔥 Activity</h2>
+      <p>New signups today</p>
+      <p>Realtime updates</p>
+    </div>
+
+    <div class="card">
+      <h2>⚙️ Settings</h2>
+      <p>Theme preview mode</p>
+      <button>Toggle</button>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
