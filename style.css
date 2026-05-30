@@ -16,6 +16,10 @@
   --space-2xl: 70px;
 }
 
+*{
+  -webkit-tap-highlight-color: transparent;
+}
+
 
 ::selection {
   background: rgba(132, 204, 22, 0.25);
