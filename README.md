@@ -1,5 +1,5 @@
 # Ghgltggamer - Original Source code
-This source code falls under the MIT License (But i give you will freedom to use it without worrying about crediting me. I am the author. The only reason i used MIT Here instead of CC0 is because this is intended to also host my other MIT Licensed projects and i didn't want to get into the licensing MESS). The entire site is built with C++ so you will need either the GNU G++ or LLVM Clang++ to build the site.
+This source code falls under the MIT License (But i give you all the freedom to use it without worrying about crediting me. I am the author. The only reason i used MIT Here instead of CC0 is because this is intended to also host my other MIT Licensed projects and i didn't want to get into the licensing MESS). The entire site is built with C++ so you will need either the GNU G++ or LLVM Clang++ to build the site.
 
 Tweak the source in these files:
 - build.cpp (Defines the main building logic of pages)

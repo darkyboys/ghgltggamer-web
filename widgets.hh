@@ -102,6 +102,8 @@ inline std::string article_schema(const Article& a){
         if (i + 1 < a.tags.size()) tags += ",";
     }
 
+    // std::cout << tags;
+
     return R"(
 <script type="application/ld+json">
 {
@@ -109,7 +111,7 @@ inline std::string article_schema(const Article& a){
   "@type": "Article",
   "headline": ")" + a.title + R"(",
   "description": ")" + a.description + R"(",
-  "keywords": [)" + tags + R"("]
+  "keywords": [)" + tags + R"(]
 }
 </script>
 )";
