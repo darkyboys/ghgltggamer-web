@@ -49,7 +49,7 @@ int main(){
     std::vector <Project> dataset = {
         {
             "Demon Nation Of Realism - 1024x",
-            "Demon's Nation Of Realism is a photorealistic Resource Pack Made for minecraft JavaEdition for making the game as realistic as possible while being freely accessible to everyone who want's to enjoy the realism of Minecraft Modding! This resource pack brings the vision of Photorealism With performance to the real life as the Main Resource pack (Base pack) don't comes with POM & PBR, However you can definetly download the POM & PBR Extensions of this resource pack for also free and start enjoying this with POM & PBR Activated!",
+            "Demon's Nation Of Realism is a photorealistic Resource Pack Made for minecraft JavaEdition for making the game as realistic as possible while being freely accessible to everyone who want's to enjoy the realism of Minecraft Modding! This resource pack brings the vision of Photorealism With performance to the real life as the Main Resource pack (Base pack) don't comes with POM & PBR, However you can definetly download the POM & PBR Extensions of this resource pack for also free and start enjoying this with POM & PBR Activated!<br><br>Changelog: Added iron ORE",
             "https://media.forgecdn.net/avatars/thumbnails/1192/999/256/256/638768212867989863.png",
   
             "https://github.com/darkyboys/demon-nation-of-realism/",
@@ -75,7 +75,7 @@ int main(){
 
         {
             "Demon Nation Of Realism - 512x",
-            "Demon's Nation Of Realism is a photorealistic Resource Pack Made for minecraft JavaEdition for making the game as realistic as possible while being freely accessible to everyone who want's to enjoy the realism of Minecraft Modding! This resource pack brings the vision of Photorealism With performance to the real life as the Main Resource pack (Base pack) don't comes with POM & PBR, However you can definetly download the POM & PBR Extensions of this resource pack for also free and start enjoying this with POM & PBR Activated!",
+            "Demon's Nation Of Realism is a photorealistic Resource Pack Made for minecraft JavaEdition for making the game as realistic as possible while being freely accessible to everyone who want's to enjoy the realism of Minecraft Modding! This resource pack brings the vision of Photorealism With performance to the real life as the Main Resource pack (Base pack) don't comes with POM & PBR, However you can definetly download the POM & PBR Extensions of this resource pack for also free and start enjoying this with POM & PBR Activated!<br><br>Changelog: Added iron ORE",
             "https://media.forgecdn.net/avatars/thumbnails/1192/999/256/256/638768212867989863.png",
   
             "https://github.com/darkyboys/demon-nation-of-realism-512x/",
@@ -103,7 +103,7 @@ int main(){
 
         {
             "Demon Nation Of Realism - 256x",
-            "Demon's Nation Of Realism is a photorealistic Resource Pack Made for minecraft JavaEdition for making the game as realistic as possible while being freely accessible to everyone who want's to enjoy the realism of Minecraft Modding! This resource pack brings the vision of Photorealism With performance to the real life as the Main Resource pack (Base pack) don't comes with POM & PBR, However you can definetly download the POM & PBR Extensions of this resource pack for also free and start enjoying this with POM & PBR Activated!",
+            "Demon's Nation Of Realism is a photorealistic Resource Pack Made for minecraft JavaEdition for making the game as realistic as possible while being freely accessible to everyone who want's to enjoy the realism of Minecraft Modding! This resource pack brings the vision of Photorealism With performance to the real life as the Main Resource pack (Base pack) don't comes with POM & PBR, However you can definetly download the POM & PBR Extensions of this resource pack for also free and start enjoying this with POM & PBR Activated!<br><br>Changelog: Added iron ORE",
             "https://media.forgecdn.net/avatars/thumbnails/1192/999/256/256/638768212867989863.png",
   
             "https://github.com/darkyboys/demon-nation-of-realism-256x/",
@@ -134,7 +134,7 @@ int main(){
 
         {
             "Demon Nation Of Realism - POM",
-            "Demon's Nation Of Realism is a photorealistic Resource Pack Made for minecraft JavaEdition for making the game as realistic as possible while being freely accessible to everyone who want's to enjoy the realism of Minecraft Modding! This resource pack brings the vision of Photorealism With performance to the real life as the Main Resource pack (Base pack) don't comes with POM & PBR, However you can definetly download the POM & PBR Extensions of this resource pack for also free and start enjoying this with POM & PBR Activated!",
+            "Demon's Nation Of Realism is a photorealistic Resource Pack Made for minecraft JavaEdition for making the game as realistic as possible while being freely accessible to everyone who want's to enjoy the realism of Minecraft Modding! This resource pack brings the vision of Photorealism With performance to the real life as the Main Resource pack (Base pack) don't comes with POM & PBR, However you can definetly download the POM & PBR Extensions of this resource pack for also free and start enjoying this with POM & PBR Activated!<br><br>Changelog: Added iron ORE",
             "https://media.forgecdn.net/avatars/thumbnails/1192/999/256/256/638768212867989863.png",
   
             "https://github.com/darkyboys/demon-nation-of-realism-pom/",
@@ -165,7 +165,7 @@ int main(){
 
         {
             "Demon Nation Of Realism - PBR",
-            "Demon's Nation Of Realism is a photorealistic Resource Pack Made for minecraft JavaEdition for making the game as realistic as possible while being freely accessible to everyone who want's to enjoy the realism of Minecraft Modding! This resource pack brings the vision of Photorealism With performance to the real life as the Main Resource pack (Base pack) don't comes with POM & PBR, However you can definetly download the POM & PBR Extensions of this resource pack for also free and start enjoying this with POM & PBR Activated!",
+            "Demon's Nation Of Realism is a photorealistic Resource Pack Made for minecraft JavaEdition for making the game as realistic as possible while being freely accessible to everyone who want's to enjoy the realism of Minecraft Modding! This resource pack brings the vision of Photorealism With performance to the real life as the Main Resource pack (Base pack) don't comes with POM & PBR, However you can definetly download the POM & PBR Extensions of this resource pack for also free and start enjoying this with POM & PBR Activated!<br><br>Changelog: Added iron ORE",
             "https://media.forgecdn.net/avatars/thumbnails/1192/999/256/256/638768212867989863.png",
   
             "https://github.com/darkyboys/demon-nation-of-realism-pbr/",

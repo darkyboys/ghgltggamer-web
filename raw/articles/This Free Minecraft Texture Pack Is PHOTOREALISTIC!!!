@@ -1,0 +1,192 @@
+<h2>Introduction</h2>
+
+<p>
+What if Minecraft looked less like a block game and more like a real-world environment? That's exactly what <strong>Demon's Nation of Realism</strong> aims to achieve. With ultra-high-resolution textures reaching up to <strong>1024x</strong>, advanced support for <strong>POM (Parallax Occlusion Mapping)</strong> and <strong>PBR (Physically Based Rendering)</strong>, and a strong focus on photorealistic materials, this resource pack transforms Minecraft into a surprisingly realistic experience.
+</p>
+
+<p>
+From weathered wooden planks and detailed stone pathways to realistic metals, concrete, and natural terrain, every texture has been crafted to push Minecraft's visuals far beyond vanilla. Combined with modern shaders, the pack delivers cinematic lighting, enhanced depth, and lifelike materials that make every world feel immersive and alive.
+</p>
+
+<div class="box">
+<strong>Target Platforms:</strong>
+<ul>
+    <li>Minecraft Java Edition (primary platform)</li>
+    <li>Minecraft Bedrock / Pocket Edition (beta support)</li>
+</ul>
+</div>
+
+<h2>Why Demon's Nation of Realism Stands Out</h2>
+
+<p>
+Unlike many realism packs that focus solely on higher resolutions, Demon's Nation of Realism is built around creating a complete visual overhaul. The pack uses carefully designed textures, advanced material maps, and optional graphical extensions to deliver realistic depth, lighting, and surface detail.
+</p>
+
+<ul>
+    <li>Ultra-high-quality 1024x textures</li>
+    <li>Photorealistic blocks and environments</li>
+    <li>Optional POM support for realistic surface depth</li>
+    <li>Optional PBR support for accurate light interaction</li>
+    <li>Modular extension system for customization</li>
+    <li>Completely free and open-source under the MIT License</li>
+    <li>Pocket Edition beta available for Bedrock users</li>
+</ul>
+
+<h2>Download Options</h2>
+
+<p>
+The project is separated into multiple components so users can choose the features they want to use. Download the base pack and optionally add either the POM or PBR extension.
+</p>
+
+<div class="box">
+<strong>Base Pack (Required)</strong><br>
+<a href="https://ghgltggamer.netlify.app/project/demon%20nation%20of%20realism%20-%201024x/" target="_blank">
+Demon's Nation of Realism – 1024x
+</a>
+</div>
+
+<br>
+
+<div class="box">
+<strong>POM Extension (Optional)</strong><br>
+<a href="https://ghgltggamer.netlify.app/project/demon%20nation%20of%20realism%20-%20pom/" target="_blank">
+Download POM Extension
+</a>
+</div>
+
+<br>
+
+<div class="box">
+<strong>PBR Extension (Optional)</strong><br>
+<a href="https://ghgltggamer.netlify.app/project/demon%20nation%20of%20realism%20-%20pbr/" target="_blank">
+Download PBR Extension
+</a>
+</div>
+
+<h2>Features</h2>
+
+<h3>1024x Ultra-HD Textures</h3>
+
+<p>
+Every texture is designed at an extremely high resolution, allowing blocks to display incredible levels of detail. Surfaces appear sharper, cleaner, and more realistic than traditional Minecraft textures.
+</p>
+
+<h3>Photorealistic Visual Style</h3>
+
+<p>
+The pack focuses on real-world materials and realistic environmental detail. Stone feels rough, wood appears naturally weathered, and metallic blocks reflect light in a believable way when paired with shaders.
+</p>
+
+<h3>POM Support</h3>
+
+<p>
+Parallax Occlusion Mapping adds visual depth to textures, creating the illusion of actual geometry without modifying the block itself. Bricks, stone, and other textured surfaces appear raised and three-dimensional.
+</p>
+
+<h3>PBR Support</h3>
+
+<p>
+Physically Based Rendering introduces realistic material behavior such as reflections, roughness, metallic properties, and natural lighting interactions.
+</p>
+
+<h3>Modular Design</h3>
+
+<p>
+Rather than forcing every feature into a single package, Demon's Nation of Realism uses a modular structure that allows users to choose the visual enhancements they want.
+</p>
+
+<h2>Installation Guide</h2>
+
+<h3>Java Edition</h3>
+
+<ol>
+    <li>Download the Base Pack from the official project page.</li>
+
+    <li>Move the pack into your resource pack directory:
+        <pre><code>~/.minecraft/resourcepacks/</code></pre>
+    </li>
+
+    <li>Launch Minecraft.</li>
+
+    <li>Navigate to:
+        <pre><code>Options → Resource Packs</code></pre>
+    </li>
+
+    <li>Enable <strong>Demon's Nation of Realism</strong>.</li>
+
+    <li>
+        For advanced effects:
+        <ul>
+            <li>Install a compatible shader pack.</li>
+            <li>Enable either the POM Extension or the PBR Extension.</li>
+            <li><strong>Only activate one extension at a time.</strong></li>
+        </ul>
+    </li>
+</ol>
+
+<div class="box">
+<strong>Important Notice</strong><br>
+The old pre-made ZIP release system has been removed. Demon's Nation of Realism now uses a live pack-building system that delivers the latest files directly from the repository structure, ensuring users always receive the newest available version.
+</div>
+
+<h3>Pocket Edition (Beta)</h3>
+
+<p>
+A Pocket Edition beta version is available for Bedrock players. Advanced POM and PBR functionality is not currently supported on the PE release.
+</p>
+
+<h2>Recommended Shader Packs</h2>
+
+<p>
+To experience the pack at its full potential, pair it with a modern shader pack.
+</p>
+
+<ul>
+    <li>Nostalgia Shader (recommended)</li>
+    <li>SEUS PTGI</li>
+    <li>BSL Shaders</li>
+    <li>Continuum</li>
+</ul>
+
+<h2>Folder Structure</h2>
+
+<pre><code>Demon's Nation of Realism/
+├── REPO FILES
+├── Base_Pack
+├── POM_Extension
+└── PBR_Extension
+</code></pre>
+
+<p>
+Load the Base Pack first and then choose either the POM or PBR extension. Loading both optional extensions simultaneously may cause graphical issues.
+</p>
+
+<h2>Performance Tips</h2>
+
+<ul>
+    <li>Allocate at least 8GB of RAM to Minecraft.</li>
+    <li>Use OptiFine or Iris + Sodium.</li>
+    <li>Install a modern graphics driver.</li>
+    <li>Use SSD storage for faster loading times.</li>
+    <li>Enable shaders to take full advantage of POM and PBR effects.</li>
+</ul>
+
+<h2>License</h2>
+
+<p>
+Demon's Nation of Realism is released under the <strong>MIT License</strong>. You are free to use, modify, and distribute the project while providing proper attribution.
+</p>
+
+<h2>Credits</h2>
+
+<ul>
+    <li><strong>Creator:</strong> Darkyboys</li>
+    <li><strong>Contributors:</strong> Community contributors</li>
+    <li><strong>Special Thanks:</strong> The Minecraft shader and resource-pack community</li>
+</ul>
+
+<h2>Final Thoughts</h2>
+
+<p>
+If you're looking for a Minecraft resource pack that pushes visual realism to the extreme, Demon's Nation of Realism is easily worth trying. Between its ultra-detailed 1024x textures, realistic materials, optional POM and PBR support, and open-source development model, it offers one of the most immersive visual upgrades available for Minecraft today.
+</p>
